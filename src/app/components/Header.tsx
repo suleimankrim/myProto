@@ -11,7 +11,7 @@ interface HeaderProps {}
 const Header: FC<HeaderProps> = () => {
   return (
     <nav
-      className="h-16 fixed top-0
+      className="h-16 w-screen fixed top-0
     right-0 left-0 py-4 px-2 lg:px-24 md:px-6 flex items-center justify-between"
     >
       <motion.div
