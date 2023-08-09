@@ -33,12 +33,12 @@ const About: FC<AboutProps> = () => {
           </motion.div>
         </div>
         <div className="w-[400px] md:w-[700px] text-gray-500 ">
-          Greetings! I'm Suleiman Karim Eddin, a second-year computer science
+          Greetings! Im Suleiman Karim Eddin, a second-year computer science
           student specializing in software engineering. My passion lies in
           crafting innovative digital solutions, primarily through web
           development with a focus on the Next.js framework. I discovered
-          Next.js years ago, and since then, I've dedicated countless hours to
-          mastering its capabilities.My curiosity doesn't stop at Next.js; I've
+          Next.js years ago, and since then, Ive dedicated countless hours to
+          mastering its capabilities.My curiosity doesnt stop at Next.js; Ive
           also explored backend tech like Nest.js and Node.js, giving me a
           strong full-stack skill set to handle frontend and backend challenges
           adeptly.Besides coding, competitive programming fuels my passion. I
