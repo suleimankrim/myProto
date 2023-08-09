@@ -8,6 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Suleiman Karim Eddin",
   description: "Suleiman Karim Eddin portfolio",
+  keywords: ["suleiman", "suleiman karim eddin", "fullstack", "frontend"],
 };
 
 export default function RootLayout({
