@@ -9,7 +9,7 @@ interface HeroProps {}
 
 const Hero: FC<HeroProps> = () => {
   return (
-    <div className="w-screen h-screen flex flex-col justify-center items-center space-y-4   ">
+    <div className="w-screen h-screen flex flex-col justify-center items-center space-y-4">
       <div className="relative rounded-full h-16 w-16 overflow-hidden">
         <Image src={suleiman} fill alt={"suleiman photo"}></Image>
       </div>

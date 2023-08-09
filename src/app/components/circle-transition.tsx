@@ -17,8 +17,8 @@ const CircleTransition: FC<CircleTransitionProps> = () => {
       }}
       className="relative flex justify-center items-center"
     >
-      <div className="border-amber-200 border h-[500px] w-[500px] rounded-full animate-pulse absolute" />
-      <div className="border-gray-200 border h-[600px] w-[600px] rounded-full animate-pulse absolute" />
+      <div className="border-amber-200 border md:h-[500px] md:w-[500px] h-[300px] w-[300px] rounded-full animate-pulse absolute" />
+      <div className="border-gray-200 border md:h-[600px] md:w-[600px] h-[400px] w-[400px]  rounded-full animate-pulse absolute" />
     </motion.div>
   );
 };

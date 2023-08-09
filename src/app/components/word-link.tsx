@@ -6,7 +6,7 @@ interface WordLinkProps {}
 
 const WordLink: FC<WordLinkProps> = () => {
   return (
-    <div className="flex space-x-6 text-gray-500 text-sm">
+    <div className="flex space-x-2 md:space-x-6 text-gray-500 text-sm">
       <Button className="z-50" variant={"link"}>
         {" "}
         <Link className="hover:text-black" href={"#about"}>
