@@ -1,13 +1,11 @@
 "use client";
 import { FC } from "react";
-import Link from "next/link";
 import github from "../svg/github-142-svgrepo-com.svg";
 import linkedin from "../svg/linkedin-svgrepo-com.svg";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
 interface HeaderProps {}
-
 const Header: FC<HeaderProps> = () => {
   return (
     <nav
@@ -28,21 +26,23 @@ const Header: FC<HeaderProps> = () => {
         transition={{
           duration: 1.2,
         }}
-        className="flex gap-2 items-center"
+        className="flex gap-4 items-center"
       >
-        <Link
-          href={"https://github.com/suleimankrim"}
-          className="relative w-7 h-7"
+        <a
+          target={"_blank"}
+          href={"https://www.linkedin.com/in/suleiman-karim-eddin-432024215"}
+          className="relative w-7 h-7 z-50"
         >
           <Image alt={"visit us in linkedIn"} fill src={linkedin}></Image>
-        </Link>
-        <Link
-          className="relative w-7 h-7"
-          href={"https://www.linkedin.com/in/suleiman-karim-eddin-432024215"}
+        </a>
+        <a
+          target={"_blank"}
+          className="relative w-7 h-7 z-50"
+          href={"https://github.com/suleimankrim"}
         >
           {" "}
           <Image alt={"visit us in github"} fill src={github}></Image>
-        </Link>
+        </a>
       </motion.div>
       <motion.div
         initial={{

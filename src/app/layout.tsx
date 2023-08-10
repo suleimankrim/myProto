@@ -19,7 +19,8 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className="snap-y snap-mandatory scrollbar-thin scrollbar-thumb-gray-900 scrollbar-track-gray-100  overflow-y-scroll overflow-x-hidden"
+      className="snap-y snap-mandatory scrollbar-thin
+       scrollbar-thumb-gray-900 scrollbar-track-gray-100  overflow-y-scroll overflow-x-hidden"
     >
       <body className={inter.className}>{children}</body>
     </html>
