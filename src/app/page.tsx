@@ -5,9 +5,20 @@ import About from "@/app/components/About";
 import Experience from "@/app/components/Experience";
 import Skills from "@/app/components/Skills";
 import Projects from "@/app/components/Projects";
+import Head from "next/head";
 
 export default function Home() {
-  return (
+  return (<>
+
+<Head>
+        <title>Suleiman Karim Eddin </title>
+        <meta name="google-site-verification" content="ZDg5w2pmn3R2hjCq0xEybp6KbFzMttTYBQvm3l68Eyw" />
+        <link
+          rel="canonical"
+          href="https://suleimna-karim-eddin.vercel.app/"
+          key="canonical"
+        />
+      </Head>
     <main className="">
       <Header />
       <section id={"hero"} className="snap-start">
@@ -26,5 +37,5 @@ export default function Home() {
         <Projects />
       </section>
     </main>
-  );
+  </>);
 }

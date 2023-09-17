@@ -39,15 +39,6 @@ export default function RootLayout({
       className="snap-y snap-mandatory scrollbar-thin
        scrollbar-thumb-gray-900 scrollbar-track-gray-100  overflow-y-scroll overflow-x-hidden"
     >
-        <Head>
-        <title>Suleiman Karim Eddin </title>
-        <meta name="google-site-verification" content="ZDg5w2pmn3R2hjCq0xEybp6KbFzMttTYBQvm3l68Eyw" />
-        <link
-          rel="canonical"
-          href="https://suleimna-karim-eddin.vercel.app/"
-          key="canonical"
-        />
-      </Head>
       <body className={inter.className}>{children}</body>
     </html>
   );
