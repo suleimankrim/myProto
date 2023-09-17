@@ -41,6 +41,7 @@ export default function RootLayout({
     >
         <Head>
         <title>Suleiman Karim Eddin </title>
+        <meta name="google-site-verification" content="ZDg5w2pmn3R2hjCq0xEybp6KbFzMttTYBQvm3l68Eyw" />
         <link
           rel="canonical"
           href="https://suleimna-karim-eddin.vercel.app/"
