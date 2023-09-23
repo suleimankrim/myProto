@@ -7,7 +7,7 @@ interface TextTransitionProps {}
 const TextTransition: FC<TextTransitionProps> = () => {
   return (
     <div className="flex justify-center items-center">
-      <div className="font-bold text-2xl">
+      <div className="font-bold text-sm md:text-2xl">
         <Typewriter
           words={["<Suleiman Karim Eddin/>", "<FullStack>NEXTJS<Developer/>"]}
           loop={true}

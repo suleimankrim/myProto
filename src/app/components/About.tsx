@@ -12,8 +12,8 @@ const About: FC<AboutProps> = () => {
       <div className="absolute top-14 inset-x-0 flex justify-center text-gray-700 tracking-[6px] font-bold">
         About
       </div>
-      <div className="md:flex  mt-14 space-y-2 md:space-y-0">
-        <div className="w-full flex justify-center mt-16 md:mt-0">
+      <div className="md:flex md:gap-4 mt-14 space-y-2 md:space-y-0">
+        <div className="flex justify-center md:items-center mt-16 md:mt-0">
           <motion.div
             initial={{
               opacity: 0,
@@ -27,12 +27,12 @@ const About: FC<AboutProps> = () => {
               opacity: 1,
             }}
             viewport={{ once: true }}
-            className="relative overflow-hidden w-32 h-32 rounded-full md:rounded md:h-96 md:w-64"
+            className="relative overflow-hidden w-28 h-32 rounded md:h-[380px] md:w-[290px]"
           >
             <Image alt="suleiman full photo" fill src={s}></Image>
           </motion.div>
         </div>
-        <div className="w-[400px] md:w-[700px] text-gray-500 ">
+        <div className="w-[300px] md:w-[600px] md:flex md:justify-start text-xs md:text-lg text-gray-500 ">
           Greetings! Im Suleiman Karim Eddin, a second-year computer science
           student specializing in software engineering. My passion lies in
           crafting innovative digital solutions, primarily through web

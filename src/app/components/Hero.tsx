@@ -14,7 +14,7 @@ const Hero: FC<HeroProps> = () => {
         <Image src={suleiman} fill alt={"suleiman photo"}></Image>
       </div>
       <CircleTransition />
-      <div className="text-[11px] font-bold text-gray-400 tracking-[15px] uppercase">
+      <div className="text-[11px] font-bold text-gray-400 tracking-[5px] md:tracking-[15px] uppercase">
         Software Engineer
       </div>
       <TextTransition />

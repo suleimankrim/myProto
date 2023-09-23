@@ -9,20 +9,20 @@ interface SecondCardProps {}
 
 const SecondCard: FC<SecondCardProps> = () => {
   return (
-    <div className="w-[400px] snap-center shadow-lg opacity-80 hover:opacity-100 h-[500px] bg-gray-100 rounded-md ">
-      <div className="w-[400px] flex flex-col items-center mt-11">
-        <div className="w-28 h-28 relative rounded-full overflow-hidden">
+    <div className="w-[300px] md:w-[400px] snap-center shadow-lg opacity-80 hover:opacity-100 h-[500px] bg-gray-100 rounded-md ">
+      <div className="w-[300px] md:w-[400px] flex flex-col items-center mt-11">
+        <div className="w-24 h-24 md:w-28 md:h-28 relative rounded-full overflow-hidden">
           <Image src={logo} fill alt={"kammun"}></Image>
         </div>
         <div className="text-xl text-gray-700 tracking-[6px]">Kammun</div>
         <div className="flex gap-4 m-2">
-          <div className="h-12 w-12 relative rounded-full">
+          <div className="w-8 h-8 md:h-12 md:w-12 relative rounded-full">
             <Image alt={"logo"} src={js} fill></Image>
           </div>
-          <div className="h-12 w-12 relative rounded-full">
+          <div className="w-8 h-8 md:h-12 md:w-12 relative rounded-full">
             <Image alt={"logo"} src={reacr} fill></Image>
           </div>
-          <div className="h-12 w-12 relative rounded-full">
+          <div className="w-8 h-8 md:h-12 md:w-12 relative rounded-full">
             <Image alt={"logo"} src={taildw} fill></Image>
           </div>
         </div>

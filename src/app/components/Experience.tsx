@@ -26,7 +26,7 @@ const Experience: FC<ExperienceProps> = () => {
           duration: 1.2,
         }}
         viewport={{ once: true }}
-        className="mt-28 flex overflow-x-scroll lg:overflow-x-hidden gap-4 snap-x snap-mandatory scrollbar-thin scrollbar-thumb-gray-900 scrollbar-track-gray-100"
+        className="mt-28 ml-6 md:ml-0 flex overflow-x-scroll lg:overflow-x-hidden gap-4 snap-x snap-mandatory scrollbar-thin scrollbar-thumb-gray-900 scrollbar-track-gray-100"
       >
         <CardExperience />
         <SecondCard />

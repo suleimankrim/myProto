@@ -12,7 +12,7 @@ const Projects: FC<ProjectsProps> = () => {
       <div className="absolute top-14 inset-x-0 flex justify-center text-gray-700 tracking-[6px] font-bold">
         Projects
       </div>
-      <div className="flex gap-4 z-50 mt-11 overflow-x-scroll snap-x snap-mandatory lg:overflow-x-hidden scrollbar-thin scrollbar-thumb-gray-900 scrollbar-track-gray-100">
+      <div className="flex ml-6 md:ml-0 gap-4 z-50 mt-11 overflow-x-scroll snap-x snap-mandatory lg:overflow-x-hidden scrollbar-thin scrollbar-thumb-gray-900 scrollbar-track-gray-100">
         <ProjectsCart
           url={"https://reddit-clone-suleiman.vercel.app/"}
           contact="Reddit clone app that has a log in and log out using nextAuth with google it has
